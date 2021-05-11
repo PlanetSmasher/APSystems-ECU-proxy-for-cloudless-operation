@@ -18,7 +18,7 @@ This is of course not the complete functional description of how the ECU works, 
 - No large repository of historical data and (trend-)analysis at EMA
 
 # Advantage
-- You can use this method to optain the data directly from the ECU without having to scrape the EMA website and then push it to PVOutput for example (you will be missing some parameters like signal strenth and temperature though)
+- You can use this method to optain the data directly from the ECU without having to scrape the EMA website and then push it to PVOutput for example (you will be missing some inverter parameters like signal strengths and temperatures though)
 
 # How to use
 1. DNS rewrite ecu.apsystemsema.com and ecu2.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
