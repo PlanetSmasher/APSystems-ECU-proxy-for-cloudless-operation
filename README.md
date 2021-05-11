@@ -1,4 +1,4 @@
-# APSystems-ECU-proxy-for-cloudless-operation
+# APSystems ECU proxy for cloudless operation
 
 # Description
 This short script should enable APSystems ECU users to work cloudless. 
