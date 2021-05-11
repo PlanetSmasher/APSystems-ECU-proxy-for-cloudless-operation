@@ -14,7 +14,6 @@ class HTTPSERVER(BaseRequestHandler):
             print('Received: ' + str(rec))
             date_time_obj = datetime.strptime(str(rec)[62:76], '%Y%m%d%H%M%S') + timedelta(minutes=-5)
             send_str = '101' + datetime.strftime(date_time_obj, '%Y%m%d%H%M%S')
-            print(send_str.encode('utf-8'))
             self.request.send(send_str.encode('utf-8'))
             
 
