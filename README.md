@@ -30,7 +30,8 @@ This is of course not the complete functional description of how the ECU works, 
 * ecu2.apsema.com
 * ecu2.apsystems.com
 * ...
-3. You're done
+3. Run the script for example on PyCharm 
+4. You're done
 
 # To Do
 - Clean up code
