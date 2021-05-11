@@ -2,3 +2,12 @@
 
 # Purpose
 This short script should enable ECU users to work cloudless. 
+Under normal circumstances, the ECU will stop functioning when apsystems.com domains are blocked. This Python 3 script causes the ECU to get fake responses (as if the response came from the EMA cloud).
+
+It works very simply. Every five minutes the ECU sends data to ecu.apsystemsema.com alternately via port 8995 and 8996
+
+The EMA site responds with a timestamp of the most recently received data (this is usually the recent data - 5 minutes). The ECU thinks it has fully updated the EMA site and has an internet connection with EMA.
+
+
+---work in progress---
+- how to use
