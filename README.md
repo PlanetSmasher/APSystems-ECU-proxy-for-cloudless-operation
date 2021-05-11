@@ -12,6 +12,7 @@ The EMA site responds with a timestamp of the last received data (this is usuall
 - Firmware updates are being pushed to my ECU-R without any notice or release notes 
 - I want to prevent others from being able to shut down my PV installation
 - Most data (even more than the EMA cloud holds) is present and is being read from the ECU
+- Ability to privately own the produced data
 
 # Disadvantage
 - No large repository of historical data and analysis
