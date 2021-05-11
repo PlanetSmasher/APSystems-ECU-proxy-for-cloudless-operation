@@ -17,7 +17,7 @@ The EMA site responds with a timestamp of the last received data (this is usuall
 - No large repository of historical data and analisys
 
 # How to use
-1. DNS rewrite ecu.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
+1. DNS rewrite ecu.apsystemsema.com and ecu2.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
 2. You're done
 
 # To Do
