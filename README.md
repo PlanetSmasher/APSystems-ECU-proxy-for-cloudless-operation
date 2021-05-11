@@ -28,5 +28,5 @@ The EMA site responds with a timestamp of the last received data (this is usuall
 # To Do
 - Clean up code
 - Add logging / monitoring
-- Maybe integrate with the ECU-R Home Assistant integration
+- Integrate with Home Assistant
 - More testing (compatibility with ECU-C)
