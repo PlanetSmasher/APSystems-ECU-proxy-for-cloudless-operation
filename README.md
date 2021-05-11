@@ -16,9 +16,11 @@ This is of course not the complete functional description of how the ECU works, 
 
 # Disadvantage
 - No large repository of historical data and (trend-)analysis at EMA
+- No ECU and Inverter (Over The Air) firmware updates. 
 
 # Advantage
 - You can use this method to optain the data directly from the ECU without having to scrape the EMA website and then push it to PVOutput for example (you will be missing some inverter parameters like signal strengths and temperatures though)
+- No unsollicited OTA firmware updates for ECU or Inverters
 
 # How to use
 1. DNS rewrite ecu.apsystemsema.com and ecu2.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
