@@ -22,6 +22,7 @@ The EMA site responds with a timestamp of the last received data (this is usuall
 * apsystemsema.cn
 * ecu.apsema.com
 * ecu2.apsema.com
+* ecu2.apsystems.com
 * ...
 3. You're done
 
