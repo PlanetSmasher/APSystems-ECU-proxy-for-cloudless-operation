@@ -14,7 +14,7 @@ The EMA site responds with a timestamp of the last received data (this is usuall
 - Ability to privately own the produced data
 
 # Disadvantage
-- No large repository of historical data and analysis
+- No large repository of historical data and (trend-)analysis
 
 # How to use
 1. DNS rewrite ecu.apsystemsema.com and ecu2.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
