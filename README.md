@@ -8,6 +8,9 @@ It works very simply. Every five minutes the ECU sends data to ecu.apsystemsema.
 
 The EMA site responds with a timestamp of the most recently received data (this is usually the recent data - 5 minutes). The ECU thinks it has fully updated the EMA site and has an internet connection with EMA.
 
+# Why?
+- Firmware updates are being pushed to my ECU-R without any notice or release notes 
+- I want to prevent others from being able to shut down my PV installation (I own the hardware and want control over it)
 
 ---work in progress---
 - how to use
