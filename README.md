@@ -24,13 +24,13 @@ This is of course not the complete functional description of how the ECU works, 
 
 # How to use
 1. DNS rewrite \*.apsystemsema.com to a local host that is running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
-2. Block all (future) communication with APSystems
+2. Run the script for example on PyCharm at a host which is continuously running (Raspberry Pi or something)
+3. Block all (future) communication with APSystems
 * apsystemsema.cn
 * ecu.apsema.com
 * ecu2.apsema.com
 * ecu2.apsystems.com
 * ...
-3. Run the script for example on PyCharm 
 4. You're done
 
 # To Do
@@ -40,3 +40,4 @@ This is of course not the complete functional description of how the ECU works, 
 - Add logging / monitoring
 - Integrate with Home Assistant
 - More testing (compatibility with ECU-C)
+- Optionally enable full proxy forwarding data to the EMA site as well
