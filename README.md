@@ -23,7 +23,7 @@ This is of course not the complete functional description of how the ECU works, 
 - No unsollicited OTA firmware updates for ECU or Inverters
 
 # How to use
-1. DNS rewrite ecu.apsystemsema.com and ecu2.apsystemsema.com to a local host running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
+1. DNS rewrite \*.apsystemsema.com to a local host that is running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
 2. Block all (future) communication with APSystems
 * apsystemsema.cn
 * ecu.apsema.com
