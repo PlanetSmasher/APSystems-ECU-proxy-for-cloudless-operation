@@ -1,6 +1,6 @@
 # APSystems-ECU-proxy-for-cloudless-operation
 
-# Purpose
+# Description
 This short script should enable APSystems ECU users to work cloudless. 
 Under normal circumstances, the ECU will stop functioning when apsystems.com domains are blocked. This Python 3 script causes the ECU to get fake responses (as if the response came from the EMA cloud).
 
