@@ -2,12 +2,12 @@
 
 # Description
 This short script should enable APSystems ECU users to work cloudless. 
-Under normal circumstances, the ECU will stop functioning when apsystems.com domains are blocked. This Python 3 script causes the ECU to get fake responses (as if the response came from the EMA cloud).
+Under normal circumstances, the ECU will stop functioning when apsystems.com domains are blocked. This Python 3 script causes the ECU to get simulated responses (as if the response came from the EMA cloud).
 
 Every five minutes the ECU sends recent data to ecu.apsystemsema.com alternately via port 8995 and 8996
 The EMA site responds with a timestamp of the last received data (this is usually the recent data - 5 minutes). The ECU now knows it has fully synchronized with the EMA site and also is aware of having an internet connection with EMA.
 
-# Why?
+# Why cloudless
 - Firmware updates are being pushed to my ECU-R without any notice or release notes 
 - I want to prevent others from being able to shut down my PV installation
 - All parameters (even more than the EMA cloud holds) is present and is being read from the ECU
