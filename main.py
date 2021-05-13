@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import threading
 
 
-host = '172.16.0.52' #Your host IP-address here
+host = '172.x.x.x' #Your host IP-address here
 
 class HTTPSERVER(BaseRequestHandler):
     def handle(self):
